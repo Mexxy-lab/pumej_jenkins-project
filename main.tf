@@ -4,7 +4,7 @@ data "digitalocean_ssh_key" "pumej-dokey" {
 }
 
 # Creating a Digital Ocean Droplet
-resource "digitalocean_droplet" "karo-droplet" {
+resource "digitalocean_droplet" "pumej-droplet" {
   image    = var.image
   name     = var.droplet_name
   region   = var.droplet_region
