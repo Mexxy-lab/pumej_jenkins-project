@@ -1,7 +1,7 @@
 # Data source for our SSH key
 
 data "digitalocean_ssh_key" "mexy-dokey" {
-  name = "pumej-dokey"
+  name = "id_rsa.pub"
 }
 
 # Creating a Digital Ocean Droplet
