@@ -4,3 +4,4 @@ pumej_dokey.pub
 .terraform
 variables.tf
 terraform.tfvars
+terraform.tfstate
