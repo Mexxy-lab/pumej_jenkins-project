@@ -1,6 +1,6 @@
 # Data source for our SSH key
 
-data "digitalocean_ssh_key" "pumej-dokey" {
+data "digitalocean_ssh_key" "mexy-dokey" {
   name = "pumej-dokey"
 }
 
@@ -10,5 +10,5 @@ resource "digitalocean_droplet" "pumej-droplet" {
   name     = var.droplet_name
   region   = var.droplet_region
   size     = var.image_size
-  ssh_keys = [data.digitalocean_ssh_key.pumej-dokey.id]
+  ssh_keys = [data.digitalocean_ssh_key.mexy-dokey.id]
 }
