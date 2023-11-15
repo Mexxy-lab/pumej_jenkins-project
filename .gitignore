@@ -3,3 +3,4 @@ pumej_dokey.pub
 .terraform.lock.hcl
 .terraform
 variables.tf
+terraform.tfvars
