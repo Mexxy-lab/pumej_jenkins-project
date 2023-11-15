@@ -4,7 +4,7 @@ image_size = "s-2vcpu-4gb"
 
 image = "ubuntu-22-04-x64"
 
-do_token = "dop_v1_4361d5348c4af6f7d5e3b74e3555ad5c0f6965801cc69c123554e2dad4d906f7"
+do_token = "dop_v1_38bfb40d07ac90d2a0e2ec38026cad41ab5fd1b70f3c99c8cdceb76bb8970401"
 
 droplet_name = "jenkins-server"
 
